@@ -271,7 +271,7 @@ pub fn setup_path(src: &[SpiroCP]) -> Vec<SpiroSegment> {
         n -= 1;
     };
 
-    let mut r = vec![SpiroSegment::default(); n + 1];
+    let mut r = vec![SpiroSegment::default(); n + 2];
 
     let mut i = 0;
     let mut ilast;
